@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#121212"
-    tools:context=".MainActivity">
+    tools:context=".ConsolasActivity">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -15,7 +15,7 @@
         android:layout_height="0dp"
         android:fillViewport="true"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/txtMain">
+        app:layout_constraintBottom_toTopOf="@+id/txtConsolas">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -24,17 +24,6 @@
             android:padding="16dp">
 
             <!-- Título principal (estilo como en Generaciones) -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="30dp"
-                android:text="VIDEOJUEGOS"
-                android:textColor="@android:color/white"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:letterSpacing="0.1" />
 
             <!-- Sección de Botones (mismo estilo que en Generaciones) -->
             <LinearLayout
@@ -45,12 +34,24 @@
                 android:layout_marginBottom="20dp">
 
                 <Button
-                    android:id="@+id/buttonConsolas"
+                    android:id="@+id/buttonCCompañias"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="4dp"
+                    android:text="Compañías"
+                    android:backgroundTint="#3F51B5"
+                    android:textColor="@android:color/white"
+                    android:textAllCaps="false"
+                    app:cornerRadius="12dp" />
+
+                <Button
+                    android:id="@+id/buttonCGeneraciones"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:layout_marginStart="4dp"
-                    android:text="Consolas"
+                    android:text="Generaciones"
                     android:backgroundTint="#3F51B5"
                     android:textColor="@android:color/white"
                     android:textAllCaps="false"
@@ -58,18 +59,21 @@
             </LinearLayout>
 
             <androidx.fragment.app.FragmentContainerView
-                android:id="@+id/fragment_main"
+                android:id="@+id/fragment_consolas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
         </LinearLayout>
+
+
     </ScrollView>
 
+
     <TextView
-        android:id="@+id/txtMain"
+        android:id="@+id/txtConsolas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Compañias"
+        android:text="consolas"
         android:textColor="@android:color/holo_orange_dark"
         android:textSize="18sp"
         android:textStyle="bold"

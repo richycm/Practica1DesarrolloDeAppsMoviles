@@ -8,17 +8,17 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+class ConsolasActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_consolas)
 
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
                 .replace(
-                    R.id.fragment_main,
-                    MainFragment()
+                    R.id.fragment_consolas,
+                    ConsolasFragment()
                 )
                 .commit()
         }
@@ -29,10 +29,17 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        // Botón "Consolas" -> abre ConsolasActivity
-        val btnConsolas = findViewById<Button>(R.id.buttonConsolas)
-        btnConsolas.setOnClickListener {
-            val intent = Intent(this, ConsolasActivity::class.java)
+        // Botón "Compañías" -> abre MainActivity
+        val btnCompanias = findViewById<Button>(R.id.buttonCCompañias)
+        btnCompanias.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        // Botón "Generaciones" -> abre GeneracionesActivity
+        val btnGeneraciones = findViewById<Button>(R.id.buttonCGeneraciones)
+        btnGeneraciones.setOnClickListener {
+            val intent = Intent(this, GeneracionesActivity::class.java)
             startActivity(intent)
         }
     }

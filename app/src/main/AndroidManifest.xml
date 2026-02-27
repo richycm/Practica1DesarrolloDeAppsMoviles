@@ -13,15 +13,22 @@
         android:theme="@style/Theme.Practica1VideojuegosActivities">
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".GeneracionesActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".GeneracionesActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ConsolasActivity"
+            android:exported="true">
         </activity>
     </application>
 
