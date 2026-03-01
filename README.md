@@ -112,7 +112,7 @@ Desarrollo de aplicaciones móviles nativas
 # Especificaciones computadoras
 - **Blanco López Juan Antonio**:
 
-- **Carmona Martínez Ricardo**:
+- **Carmona Martínez Ricardo**: Laptop 12th Gen Intel(R) Core(TM) i5-1235U, 16GB de RAM, 320GB disponibles de almacenamiento, Sistema operativo Windows 11 de 64 bits.
 
 - **Muciño Torres Diego Ivan**: Laptop 12th Gen Intel(R) Core(TM) i7-1255U, 16GB de RAM, 261GB disponibles de almacenamiento, Sistema operativo de 64 bits.
 
