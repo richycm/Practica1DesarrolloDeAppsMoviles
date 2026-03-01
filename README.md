@@ -45,33 +45,41 @@ Desarrollo de aplicaciones móviles nativas
 
 <details>
 <summary>Carmona Martínez Ricardo</summary>
-<p align="center">
+<div align="center">
 
 <br><b>Java Development Kit (JDK)</b><br>
 <img width="921" height="143" alt="JDK" src="https://github.com/user-attachments/assets/c145bc2c-c8b7-4ae3-89b0-5305d3d5fedd" />
+<br>
 
 <br><b>Maven</b><br>
 <img width="921" height="127" alt="Maven" src="https://github.com/user-attachments/assets/fa0441cd-49d3-47d0-90a0-494f64d28d93" />
+<br>
 
 <br><b>Git</b><br>
 <img width="749" height="102" alt="Git" src="https://github.com/user-attachments/assets/5e8ec8a5-c4c2-46ce-a098-3427e022d41a" />
+<br>
 
 <br><b>Node.js</b><br>
 <img width="598" height="88" alt="Node" src="https://github.com/user-attachments/assets/29ab7771-fb47-40d6-bdc6-3f2d9758cf82" />
+<br>
 
 <br><b>Flutter</b><br>
 <img width="921" height="94" alt="Flutter" src="https://github.com/user-attachments/assets/0b45a38f-cbea-44cb-bb46-d904eee76595" />
+<br>
 
 <br><b>Flutter doctor</b><br>
 <img width="921" height="255" alt="Doctor" src="https://github.com/user-attachments/assets/7f7f6cbc-5b43-4c1c-b014-c55176494a31" />
+<br>
 
 <br><b>IDE de Android Studio con App Flutter funcionando</b><br>
 <img width="921" height="488" alt="Flutter App" src="https://github.com/user-attachments/assets/a3410b33-ac5e-4276-89d1-06b963e4125a" />
+<br>
 
 <br><b>IDE de Android Studio con App nativa “Hola Jetpack Compose”</b><br>
 <img width="921" height="487" alt="Jetpack" src="https://github.com/user-attachments/assets/9453eb3f-caf2-40d4-9959-18830c295a85" />
+<br>
 
-</p>
+</div>
 </details>
 
 <details>
