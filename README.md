@@ -41,6 +41,36 @@ Desarrollo de aplicaciones móviles nativas
 ## Ejercicio 1: Instalación de Herramientas
 <details>
 <summary>Blanco López Juan Antonio </summary>
+<div align="center">
+
+<br><b>Java Development Kit (JDK)</b><br>
+<img width="921" height="125" alt="image" src="https://github.com/user-attachments/assets/778828de-cffe-4a2c-b4fc-3b29b5dce1a5" />
+<br>
+
+<br><b>Andorid Studio</b><br>
+<img width="801" height="710" alt="image" src="https://github.com/user-attachments/assets/8d9e189e-e8b3-4154-8f51-2458b0818022" />
+<br>
+
+<br><b>Node.js</b><br>
+<img width="582" height="126" alt="image" src="https://github.com/user-attachments/assets/3ffb2b5f-d5e0-478d-b1e2-f3e03c1a32d3" />
+<br>
+
+<br><b>Git</b><br>
+<img width="629" height="128" alt="image" src="https://github.com/user-attachments/assets/5f07f2c6-08f6-43b7-aefd-28729abd9cf6" />
+<br>
+
+<br><b>Flutter</b><br>
+<img width="921" height="97" alt="image" src="https://github.com/user-attachments/assets/0591d945-bae5-4f80-a05a-5830a9373214" />
+<br>
+
+<br><b>Maven</b><br>
+<img width="921" height="142" alt="image" src="https://github.com/user-attachments/assets/bbfc5df5-1275-4fa2-9608-7395ed45504e" />
+<br>
+
+<br><b>Github</b><br>
+<img width="730" height="503" alt="image" src="https://github.com/user-attachments/assets/4aa3f418-8745-4410-828b-fdd2cae4f0bb" />
+<br>
+
 </details>
 
 <details>
@@ -110,7 +140,7 @@ Desarrollo de aplicaciones móviles nativas
 ---
 
 # Especificaciones computadoras
-- **Blanco López Juan Antonio**:
+- **Blanco López Juan Antonio**: AMD Ryzen 7 5800H with Radeon Graphics , 16GB de RAM, 477GB disponibles de almacenamiento, Sistema operativo Windows 11 de 64 bits.
 
 - **Carmona Martínez Ricardo**: Laptop 12th Gen Intel(R) Core(TM) i5-1235U, 16GB de RAM, 320GB disponibles de almacenamiento, Sistema operativo Windows 11 de 64 bits.
 
