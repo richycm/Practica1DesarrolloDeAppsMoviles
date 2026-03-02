@@ -1,6 +1,8 @@
 package com.example.practica1_videojuegos_activities
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +17,14 @@ class GeneracionesActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+            }
+
+            // 1. Buscamos el botón por el ID que vimos en el XML
+            val btnJuegosTop = findViewById<Button>(R.id.button)
+            btnJuegosTop.setOnClickListener {
+                val intent = Intent(this, JuegosActivity::class.java)
+                startActivity(intent)
+
         }
     }
 }
