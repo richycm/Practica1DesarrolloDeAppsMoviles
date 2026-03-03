@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        // Botón "Consolas" -> abre ConsolasActivity
         val btnConsolas = findViewById<Button>(R.id.buttonConsolas)
         btnConsolas.setOnClickListener {
             val intent = Intent(this, ConsolasActivity::class.java)

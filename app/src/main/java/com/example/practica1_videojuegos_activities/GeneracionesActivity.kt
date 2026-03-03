@@ -13,18 +13,25 @@ class GeneracionesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_generaciones)
+        
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-            }
+        }
 
-            // 1. Buscamos el botón por el ID que vimos en el XML
-            val btnJuegosTop = findViewById<Button>(R.id.button)
-            btnJuegosTop.setOnClickListener {
-                val intent = Intent(this, JuegosActivity::class.java)
-                startActivity(intent)
+        // Botón "Consolas" (ID: button4) -> abre ConsolasActivity (que contiene el Fragmento)
+        val btnConsolas = findViewById<Button>(R.id.button4)
+        btnConsolas.setOnClickListener {
+            val intent = Intent(this, ConsolasActivity::class.java)
+            startActivity(intent)
+        }
 
+        // Botón "Juegos Top" (ID: button) -> abre JuegosActivity
+        val btnJuegosTop = findViewById<Button>(R.id.button)
+        btnJuegosTop.setOnClickListener {
+            val intent = Intent(this, JuegosActivity::class.java)
+            startActivity(intent)
         }
     }
 }

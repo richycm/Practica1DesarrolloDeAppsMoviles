@@ -23,7 +23,6 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <!-- Título principal (estilo como en Generaciones) -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,7 +35,6 @@
                 android:textStyle="bold"
                 android:letterSpacing="0.1" />
 
-            <!-- Sección de Botones (mismo estilo que en Generaciones) -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
