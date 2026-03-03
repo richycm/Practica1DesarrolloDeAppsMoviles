@@ -170,6 +170,8 @@ En la parte superior incluye dos botones, uno que permite regresar a la activity
 El contenido principal se encuentra dentro de un ScrollView para permitir el desplazamiento vertical, ya que la información ocupa más espacio en pantalla. Cada sección cuenta con un título centrado y una tarjeta (MaterialCardView) que contiene una imagen representativa de cada compañía, proporcionando una mejor organización visual. 
 Finalmente, en la parte inferior se muestra el título identificador de la activity, indicando que el usuario se encuentra en la sección de generaciones.
 
+* **`JuegosActivity`**: Este activity representa el cuarto y último nivel dentro de la navegación jerárquica de la aplicación. En esta sección se presentan los juegos más representativos de cada compañía (Nintendo, PlayStation y Xbox), utilizando una estructura de tarjetas que combinan una imagen icónica con una descripción detallada de cada título para ofrecer una experiencia visualmente rica. Debido a la extensión de la información, todo el contenido está integrado dentro de un ScrollView, lo que garantiza un desplazamiento vertical fluido en dispositivo. En la parte superior, se han incluido dos botones estratégicos: uno para regresar a la sección de generaciones y otro que permite un salto directo al inicio de la aplicación (MainActivity), optimizando así el flujo de retorno. Finalmente, al igual que en las etapas anteriores, se muestra el título identificador al pie del activity para confirmar la ubicación actual del usuario dentro de la galería de juegos.
+
 ### ⚙️ Manejo de Transiciones y Ciclo de Vida
 La forma de cambiar de activity ocurre mediante varios cambios, siendo que todo inicia con las activity ya creadas, entonces primero en el layout se agrega un boton con un ID que al presionarse se manda una señal que activa un un **Intent** que indica de donde viene y a donde debe ir, pero esto solo pasa porque en el **AndroidManifest** estan todas las activity, por lo que si no estuviera declarada, cuando se presionara no cambiaria.
 
@@ -204,6 +206,7 @@ La forma de cambiar de activity ocurre mediante varios cambios, siendo que todo 
   <img width="24%" src="https://github.com/user-attachments/assets/aa864031-2e26-4c8d-8889-cda07a102781" />
   <img width="24%" src="https://github.com/user-attachments/assets/195f0bff-2204-4367-b694-e28e570ddef5" />
   <img width="24%" src="https://github.com/user-attachments/assets/a09cfa7e-f830-4f21-b82e-c8d1083833c1" />
+  <img width="24%" src="https://github.com/user-attachments/assets/ea65dbdc-9301-432c-beb4-1a35e21db67b" />
 </p>
 </details>
 
