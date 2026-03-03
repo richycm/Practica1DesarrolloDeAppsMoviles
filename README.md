@@ -33,8 +33,8 @@ Desarrollo de aplicaciones móviles nativas
 
 ---
 
-### FECHA DE ELABORACIÓN:
-**26/02/2026**
+### FECHA DE ENTREGA:
+**02/03/2026**
 
 ---
 
@@ -47,7 +47,7 @@ Desarrollo de aplicaciones móviles nativas
 <img width="921" height="125" alt="image" src="https://github.com/user-attachments/assets/778828de-cffe-4a2c-b4fc-3b29b5dce1a5" />
 <br>
 
-<br><b>Andorid Studio</b><br>
+<br><b>Android Studio</b><br>
 <img width="801" height="710" alt="image" src="https://github.com/user-attachments/assets/8d9e189e-e8b3-4154-8f51-2458b0818022" />
 <br>
 
@@ -140,12 +140,37 @@ Desarrollo de aplicaciones móviles nativas
 ---
 
 # Especificaciones computadoras
-- **Blanco López Juan Antonio**: AMD Ryzen 7 5800H with Radeon Graphics , 16GB de RAM, 477GB disponibles de almacenamiento, Sistema operativo Windows 11 de 64 bits.
+- **🥇Blanco López Juan Antonio**: AMD Ryzen 7 5800H with Radeon Graphics , 16GB de RAM, 477GB disponibles de almacenamiento, Sistema operativo Windows 11 de 64 bits.
 
-- **Carmona Martínez Ricardo**: Laptop 12th Gen Intel(R) Core(TM) i5-1235U, 16GB de RAM, 320GB disponibles de almacenamiento, Sistema operativo Windows 11 de 64 bits.
+- **🥈Muciño Torres Diego Ivan**: Laptop 12th Gen Intel(R) Core(TM) i7-1255U, 16GB de RAM, 261GB disponibles de almacenamiento, Sistema operativo de 64 bits.
 
-- **Muciño Torres Diego Ivan**: Laptop 12th Gen Intel(R) Core(TM) i7-1255U, 16GB de RAM, 261GB disponibles de almacenamiento, Sistema operativo de 64 bits.
+- **🥉Carmona Martínez Ricardo**: Laptop 12th Gen Intel(R) Core(TM) i5-1235U, 16GB de RAM, 320GB disponibles de almacenamiento, Sistema operativo Windows 11 de 64 bits.
+
+
 
 ---
 
 ## Ejercicio 2: Navegación Creativa
+
+#### Descripción de cada una de las activities
+<br>Activity_main: Este activity es el primero y contiene las compañias de juegos, siendo que en el activity como tal solo encontramos el titulo general que es videojuegos, despues un boton para ir a la activity de consolas y hasta abajo el titulo de la activity, y toda la informacion se encuentra en un fragment basado en puros TextView para mostrar la información. <br>
+<br>Activity_consolas: Este activity sigue un diseño parecido al main pero con cambios, siendo principalmente que ya no esta el titulo general hasta arriba, pero ahora incluye 2 botones, uno para regresar a compañias que seria el main, y otro que pasa a la siguiente activity que son las generaciones, y hasta abajo el titulo de la activity que es consolas. De igual manera, la informacion se encuentra en un fragment, el cual tiene la informacion escrita por si sola y tambien en tarjetas para los 3 tipos principales.<br>
+
+
+#### Cómo manejamos las transiciones y el ciclo de vida de Android en el código
+La forma de cambiar de activity ocurre mediante varios cambios, siendo que todo inicia con las activity ya creadas, entonces primero en el layout se agrega un boton con un ID que al presionarse se manda una señal que activa un un Intent que indica de donde viene y a donde debe ir, pero esto solo pasa porque en el AndroidManifest estan todas las activity, por lo que si no estuviera declarada, cuando se presionara no cambiaria
+
+#### Cómo ejecutar la aplicación
+
+
+#### Capturas de pantalla
+<details>
+<summary>Ver</summary>
+<img width="298" height="661" alt="image" src="https://github.com/user-attachments/assets/a8cb6b0c-815b-407d-94a8-a8563da26729" />
+<img width="299" height="661" alt="image" src="https://github.com/user-attachments/assets/aa864031-2e26-4c8d-8889-cda07a102781" />
+<img width="296" height="661" alt="image" src="https://github.com/user-attachments/assets/195f0bff-2204-4367-b694-e28e570ddef5" />
+<img width="293" height="667" alt="image" src="https://github.com/user-attachments/assets/a09cfa7e-f830-4f21-b82e-c8d1083833c1" />
+</details>
+
+
+
