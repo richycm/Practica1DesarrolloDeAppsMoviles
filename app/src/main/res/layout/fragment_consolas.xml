@@ -11,7 +11,6 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Texto de introducción -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -33,7 +32,6 @@
             android:layout_marginBottom="24dp"
             android:justificationMode="inter_word" />
 
-        <!-- Tarjeta 1: Sobremesa -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,7 +51,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="🖥️ DE SOBREMESA"
+                    android:text="DE SOBREMESA"
                     android:textColor="#3F51B5"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -69,7 +67,6 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- Tarjeta 2: Portátiles -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -89,7 +86,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="🎮 PORTÁTILES"
+                    android:text="PORTÁTILES"
                     android:textColor="#3F51B5"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -105,7 +102,6 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- Tarjeta 3: Híbridas -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -125,7 +121,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="🔄 HÍBRIDAS"
+                    android:text="HÍBRIDAS"
                     android:textColor="#3F51B5"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -141,7 +137,6 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- Espacio adicional al final -->
         <View android:layout_height="20dp" android:layout_width="match_parent"/>
 
     </LinearLayout>
