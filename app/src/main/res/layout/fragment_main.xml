@@ -11,7 +11,6 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Título principal -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -33,7 +32,6 @@
             android:layout_marginBottom="24dp"
             android:justificationMode="inter_word" />
 
-        <!-- Tarjeta 1: Nintendo -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,7 +39,7 @@
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp"
             app:strokeWidth="1dp"
-            app:strokeColor="#E60012"> <!-- Rojo Nintendo -->
+            app:strokeColor="#E60012"> 
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -53,7 +51,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="🍄 NINTENDO"
+                    android:text="NINTENDO"
                     android:textColor="#E60012"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -69,7 +67,6 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- Tarjeta 2: Sony (PlayStation) -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -77,7 +74,7 @@
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp"
             app:strokeWidth="1dp"
-            app:strokeColor="#003791"> <!-- Azul PlayStation -->
+            app:strokeColor="#003791"> 
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -89,7 +86,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="🎮 SONY (PLAYSTATION)"
+                    android:text="SONY (PLAYSTATION)"
                     android:textColor="#003791"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -105,7 +102,6 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- Tarjeta 3: Microsoft (Xbox) -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -113,7 +109,7 @@
             app:cardCornerRadius="12dp"
             app:cardElevation="4dp"
             app:strokeWidth="1dp"
-            app:strokeColor="#107C10"> <!-- Verde Xbox -->
+            app:strokeColor="#107C10">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -125,7 +121,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="💻 MICROSOFT (XBOX)"
+                    android:text="MICROSOFT (XBOX)"
                     android:textColor="#107C10"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -141,7 +137,6 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- Espacio adicional al final -->
         <View android:layout_height="20dp" android:layout_width="match_parent"/>
 
     </LinearLayout>
