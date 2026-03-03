@@ -29,14 +29,12 @@ class ConsolasActivity : AppCompatActivity() {
             insets
         }
 
-        // Botón "Compañías" -> abre MainActivity
         val btnCompanias = findViewById<Button>(R.id.buttonCCompañias)
         btnCompanias.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 
-        // Botón "Generaciones" -> abre GeneracionesActivity
         val btnGeneraciones = findViewById<Button>(R.id.buttonCGeneraciones)
         btnGeneraciones.setOnClickListener {
             val intent = Intent(this, GeneracionesActivity::class.java)
