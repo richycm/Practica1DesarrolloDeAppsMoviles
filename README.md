@@ -175,7 +175,7 @@ Finalmente, en la parte inferior se muestra el título identificador de la activ
 ### ⚙️ Manejo de Transiciones y Ciclo de Vida
 La forma de cambiar de activity ocurre mediante varios cambios, siendo que todo inicia con las activity ya creadas, entonces primero en el layout se agrega un boton con un ID que al presionarse se manda una señal que activa un un **Intent** que indica de donde viene y a donde debe ir, pero esto solo pasa porque en el **AndroidManifest** estan todas las activity, por lo que si no estuviera declarada, cuando se presionara no cambiaria.
 
----
+En cuanto al ciclo de vida de Android, el desarrollo se centró primordialmente en el método onCreate, donde se realiza la inicialización de la interfaz de usuario mediante setContentView y la vinculación de los componentes lógicos con los elementos definidos en el XML a través de sus identificadores únicos. Este enfoque asegura que los recursos de la interfaz se carguen correctamente al momento de crearse la actividad.
 
 ## 🚀 Guía de Ejecución
 
